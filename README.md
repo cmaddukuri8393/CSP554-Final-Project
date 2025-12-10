@@ -46,7 +46,7 @@
 
 This project builds a **scalable hourly electricity consumption forecasting system** using both:
 
-🔹 MODULE 1 – Machine Learning (AWS EMR + Spark + H2O)
+### MODULE 1 – Machine Learning (AWS EMR + Spark + H2O)
 Developed by Meghana and Rohan 
 
 O## 🔹 What We Implemented in Module 1 – Big Data ETL Pipeline
@@ -132,7 +132,7 @@ These Parquet files are the **official dataset** used for Module 2.
 
 ---
 
-#🔹 MODULE 1 – Machine Learning (AWS EMR + Spark + H2O)
+# 🔹 MODULE 1 – Machine Learning (AWS EMR + Spark + H2O)
 Developed by Meghana and Rohan
 
 Objective  
