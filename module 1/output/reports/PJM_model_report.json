@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "title": "Electricity Load Forecasting with H2O AutoML",
+    "region": "PJM",
+    "date": "2025-12-09 01:31:10",
+    "team": [
+      "Chaitanya Datta Maddukuri",
+      "Meghana Rabba",
+      "Rohan Singh Rajendra Singh",
+      "Tanushree Sharma"
+    ]
+  },
+  "data_summary": {
+    "rows": 178296,
+    "columns": 22,
+    "target_column": "load_mw",
+    "feature_columns": 20,
+    "sequences_created": 178284
+  },
+  "model_performance": {
+    "LinearRegression": {
+      "rmse": 79.09335327148438,
+      "mae": 54.78322982788086,
+      "r2": 0.0
+    },
+    "Ridge": {
+      "rmse": 70.79173278808594,
+      "mae": 48.19728088378906,
+      "r2": 0.0
+    },
+    "Lasso": {
+      "rmse": 126.6021728515625,
+      "mae": 79.97502899169922,
+      "r2": 0.0
+    },
+    "RandomForest": {
+      "rmse": 0.0,
+      "mae": 0.0,
+      "r2": 1.0
+    },
+    "GradientBoosting": {
+      "rmse": 5.16679992784295,
+      "mae": 3.4224051700796503,
+      "r2": 0.0
+    },
+    "XGBoost": {
+      "rmse": 1.9363090991973877,
+      "mae": 1.9363094568252563,
+      "r2": 0.0
+    },
+    "LightGBM": {
+      "rmse": 113.30251638795983,
+      "mae": 113.30251638795988,
+      "r2": 0.0
+    },
+    "H2O_AutoML": {
+      "rmse": 0.07470087143236598,
+      "mae": 0.056902277907365545,
+      "r2": 0.0
+    }
+  },
+  "best_model": {
+    "name": "RandomForest",
+    "rmse": 0.0,
+    "mae": 0.0,
+    "r2": 1.0
+  }
+}
